@@ -1,4 +1,4 @@
-package src.test;
+package src.test.java;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 
 public class Mesto1Test {
 
-    String bearerToken = "сюда_впиши_свой_токен";
+    String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2M4MDE2YWQzYjg2YTAwM2Q2ODMyZDgiLCJpYXQiOjE2Nzc1MDE3NTAsImV4cCI6MTY3ODEwNjU1MH0.-FqGCI3y4O-0jjspwgjUz_jxO2LqfnLIFkPS0Yf0Ga4";
 
     @Before
     public void setUp() {
